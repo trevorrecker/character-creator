@@ -11,6 +11,7 @@ export const skinColors = [
   { label: 'Golden', color: 'hsl(34deg, 52%, 54%)' },
   { label: 'Honey', color: 'hsl(31deg, 57%, 58%)' },
   { label: 'Warm Beige', color: 'hsl(33deg, 59%, 68%)' },
+  { label: 'Kelsie', color: 'hsl(32deg, 58%, 71%)' },
   { label: 'Sand', color: 'hsl(33deg, 51%, 71%)' },
   { label: 'Warm Ivory', color: 'hsl(32deg, 79%, 76%)' },
   { label: 'Ivory', color: 'hsl(33deg, 69%, 80%)' },
@@ -31,5 +32,5 @@ export const clothesColors = [
   { label: 'White', color: 'hsl(180deg, 10%, 85%)' },
 ];
 
-export const defaultSkinColor = skinColors[0].color;
-export const defaultClothesColor = clothesColors[0].color;
+export const defaultSkinColor = skinColors[7].color;
+export const defaultClothesColor = clothesColors[7].color;
