@@ -4,18 +4,26 @@
   padding-top: 18px;
   background-color: white;
   border-radius: 8px;
+  border: 4px solid white;
   /*
     HACK: Margin on an outer bound like this is
     a little gross, but we haven't seen the tools
     to deal with it yet!
   */
   margin-bottom: 32px;
+
+  overflow-x: auto;
+  position: relative;
 }
 
 .title {
   margin: 0;
   /* Optical centering */
   margin-bottom: -4px;
+
+  position: sticky;
+  left: 0;
+  padding-bottom: 20px;
 }
 
 .metadata {

@@ -1,2 +1,5 @@
 .buttonRow {
+    display: inline-block;
+    white-space: nowrap;
+    margin-right: 24px;
 }
